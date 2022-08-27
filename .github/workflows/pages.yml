@@ -27,7 +27,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
-        uses: kylewlacy/upload-pages-artifact@main
+        uses: kylewlacy/upload-pages-artifact@handle-weird-paths
         with:
           path: Source Dir
       - name: Deploy to GitHub Pages
